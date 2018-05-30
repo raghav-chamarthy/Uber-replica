@@ -9,4 +9,4 @@
 
 # Dispatcher System
 
-![alt text](https://raw.githubusercontent.com/raghav-chamarthy/Uber-replica/master/Dispatcher-system.PNG)
+![alt text](https://raw.githubusercontent.com/raghav-chamarthy/Uber-replica/master/Dispatcher.PNG)
