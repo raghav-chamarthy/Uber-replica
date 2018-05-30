@@ -6,3 +6,7 @@
 # Technical Architecture 
 
 ![alt text](https://raw.githubusercontent.com/raghav-chamarthy/Uber-replica/master/Technical-architecture.PNG)
+
+# Dispatcher System
+
+![alt text](https://raw.githubusercontent.com/raghav-chamarthy/Uber-replica/master/Dispatcher-system.PNG)
