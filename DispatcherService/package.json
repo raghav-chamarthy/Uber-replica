@@ -1,0 +1,23 @@
+{
+  "name": "dispatcherservice",
+  "version": "1.0.0",
+  "description": "Accepts and updates current driver trips , lists current drivers , performs price estimate",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dispatcher"
+  ],
+  "author": "Raghav Chamarthy",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "winston": "^2.4.2"
+  }
+}
