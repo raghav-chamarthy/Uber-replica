@@ -1,19 +1,7 @@
 const express = require('express');
-const {mongoose} = require('./../db/mongoose');
 const tripsRoute = express.Router();
-const _ = require('lodash');
-const {tripCoordinates} = require('./../models').tripCoordinates;
+const tripController = require('./../controllers/index').tripController;
 
-
-
-tripsRoute.post('/coordinates',(req,res) => {
-    var body = _.pick(req.body,['trip_id','driver_id','rider_id','latitude','longitude']);
-    var TripCoordinates = new tripCoordinates(body);
-    TripCoordinates.save().then((result) => {
-        res.status(201).send(result);
-    }).catch((e) => {
-        res.status(500).send(e);
-    });
-});
+tripsRoute.post('/coordinates',tripController.saveTripCoordinates);
 
 module.exports = tripsRoute;

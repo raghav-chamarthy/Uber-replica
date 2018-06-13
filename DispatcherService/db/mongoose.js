@@ -1,9 +1,8 @@
 require('dotenv').config()
-var mongoose = require('mongoose');
- 
+const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-var mongoAddress = 'mongodb://' + process.env.MONGO_DB_HOST + ':' + process.env.MONGO_DB_PORT + '/Uber';
+const mongoAddress = 'mongodb://' + process.env.MONGO_DB_CONN_STRING;
 mongoose.connect(mongoAddress);
 
 module.exports = {
