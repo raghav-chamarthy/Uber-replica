@@ -1,0 +1,7 @@
+2018-06-17T04:11:18.595Z [Uber Application logs] info: ::1 - - [17/Jun/2018:04:11:18 +0000] "POST /user/coordinates HTTP/1.1" 201 34 "-" "PostmanRuntime/7.1.5"
+
+2018-06-17T05:03:37.096Z [Uber Application logs] info: ::1 - - [17/Jun/2018:05:03:37 +0000] "POST /user/coordinates HTTP/1.1" 201 34 "-" "PostmanRuntime/7.1.5"
+
+2018-06-17T05:03:40.654Z [Uber Application logs] info: ::1 - - [17/Jun/2018:05:03:40 +0000] "POST /trip/coordinates HTTP/1.1" 201 34 "-" "PostmanRuntime/7.1.5"
+
+2018-07-19T12:10:41.443Z [Uber Application logs] info: Application running on port 3000
