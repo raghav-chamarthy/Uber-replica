@@ -1,4 +1,6 @@
 'use strict';
+require('dotenv').config();
+
 const morgan = require('morgan');
 const logger = require('./logger/logger').logger;
 const bodyParser = require('body-parser');

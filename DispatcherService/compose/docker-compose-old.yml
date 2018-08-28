@@ -7,9 +7,9 @@ services:
     expose:
       - "27017"
   app:
-    image: mydocker2112/dispatcher-service
+    image: mydocker2112/dispatcher-service-pm2
     ports:
-      - "3000"
+      - "3000:3000"
     links:
       - mongo
     depends_on:

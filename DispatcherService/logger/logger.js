@@ -1,4 +1,3 @@
-require('dotenv').config();
 const winston = require('winston');
 const appRoot = require('app-root-path');
 const {format} = require('logform');
