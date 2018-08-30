@@ -1,4 +1,3 @@
-
 const {mongoose} = require('./../db/mongoose');
 const {tripCoordinates} = require('./../models').tripCoordinates;
 const _ = require('lodash');

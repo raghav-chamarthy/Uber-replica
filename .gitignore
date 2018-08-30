@@ -4,4 +4,4 @@ node_modules
 coverage
 *.orig
 *.zip
-logs
+logs/*
