@@ -1,0 +1,7 @@
+{
+	"trip_id" : 123,
+	"driver_id": "drivera@fake.com",
+	"rider_id" : "rider@fake.com",
+	"latitude" : 48.23,
+	"longitude" : 33.27
+}

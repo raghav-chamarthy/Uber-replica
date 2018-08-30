@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:3.2
+    volumes:
+      - mongo-data:/data/db
+    expose:
+      - "27017"
+  app:
+    build: ./Dispatcher
+    image: dispather-local:latest
+    ports:
+      - "3000:3000"
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_DB_CONN_STRING=mongo:27017/Uber
+      - LOGGLY_TOKEN=4aa61359-b9ea-47ce-a8e9-50da65ffd114
+      - LOGGLY_SUBDOMAIN=localplay
+volumes:
+  mongo-data:
